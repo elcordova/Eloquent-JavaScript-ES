@@ -730,13 +730,13 @@ function codigosTexto(texto) {
   let codigos = contarPor(texto, caracter => {
     let codigo = codigoCaracter(caracter.codePointAt(0));
     return codigo ? codigo.name : "ninguno";
-  }).filter(({name}) => name != "ninguno");
-
-  let total = codigos.reduce((n, {count}) => n + count, 0);
+  }).filter(({nombre}) => nombre != "ninguno");
+  
+  let total = codigos.reduce((n, {cuenta}) => n + cuenta, 0);
   if (total == 0) return "No se encontraron codigos";
-
-  return codigos.map(({name, count}) => {
-    return `${Math.round(count * 100 / total)}% ${name}`;
+ 
+  return codigos.map(({nombre, cuenta}) => {
+    return `${Math.round(cuenta * 100 / total)}% ${nombre}`;
   }).join(", ");
 }
 
