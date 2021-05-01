@@ -262,7 +262,7 @@ caso su tipo—y deriva propiedades compartidas desde su prototipo.
 {{index "object-oriented programming"}}
 
 El sistema de ((prototipos)) en JavaScript se puede interpretar como un
-enfoque informal de un concepto orientado a objetos llamado _((clase))es_.
+enfoque informal de un concepto orientado a objetos llamado _((clase))s_.
 Una clase define la forma de un tipo de objeto—qué métodos y
 propiedades tiene este. Tal objeto es llamado una _((instancia))_ de la
 clase.
