@@ -320,9 +320,9 @@ Tal objeto te dice el nombre del codigo, los rangos de Unicode
 asignados a él, la dirección en la que está escrito, la
 tiempo de origen (aproximado), si todavía está en uso, y un enlace a
 más información. La dirección en la que esta escrito puede ser
-`"ltr"` (left-to-right) para izquierda a derecha, `"rtl"` (right-to-left)
-para derecha a izquierda (la forma en que se escriben los textos en árabe
-y en hebreo), o `"ttb"` (top-to-bottom) para de arriba a abajo
+`"ltr"` (left-to-right) de izquierda a derecha, `"rtl"` (right-to-left)
+de derecha a izquierda (la forma en que se escriben los textos en árabe
+y en hebreo), o `"ttb"` (top-to-bottom) de de arriba a abajo
 (como con la escritura de Mongolia).
 
 {{index "slice method"}}
