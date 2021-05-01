@@ -508,11 +508,6 @@ Entonces, todas las noches a las diez—o algunas veces a la mañana siguiente,
 después de bajar del estante superior de su biblioteca—Jacques registra el
 día.
 
-
-So then, every evening at ten—or sometimes the next morning, after
-climbing down from the top shelf of his bookcase—Jacques records the
-day.
-
 ```
 añadirEntrada(["trabajo", "toque un arbol", "pizza", "sali a correr",
           "television"], false);
